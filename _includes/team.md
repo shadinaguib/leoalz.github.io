@@ -1,3 +1,0 @@
-## Datomic Dataster Team
-
-team
