@@ -11,7 +11,7 @@ Let's talk about the first model. After having computed social and traveler scor
 
 {% include regression_model.html %}
 
-We can see that with this simple regression model, the results already look pretty promising! In fact **in 60% of the cases, we were able to determine with an error of less than 2 friends, the number of friends that a user has gained or lost**. 
+We can see that with this simple regression model, the results already look pretty promising! In fact **in 35% of the cases, we were able to determine with an error of less than 1 friends, the number of friends that a user has gained or lost**. 
 
 Now what if we only use the the check-ins of the users in the testing set to determine to which user in the training set they are the most similar to? 
 
@@ -26,7 +26,7 @@ The difference between the predicted number of friends and the real number of fr
 
 Clearly, this method works a lot better than the model using the social and traveler scores of the users, which is something we were not expecting at all!  
 
-In **70% of the cases, we are able to predict the number of friends a person will make (with an error of only 1 friend)** simply by looking at the users to which this person is most similar. This clearly proves that users that go to similar places are similar in behaviour, and are most likely to make the same number of friends. 
+In **60% of the cases, we are able to predict the number of friends a person will make (with an error of only 1 friend)** simply by looking at the users to which this person is most similar. This clearly proves that users that go to similar places are similar in behaviour, and are most likely to make the same number of friends. 
 
 
 
