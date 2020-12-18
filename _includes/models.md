@@ -5,8 +5,8 @@ We have tried two methods in order to predict the number of friends that a speci
 2. A model only using the check-ins of the users to determine the similarity between them
 
 First of all we divide our data into a training set containing 80% of the users (1000 users), and a testing set containing 20% of the users (250 users).  
-We then train our models on the training data, and predict the number of friends gained for the users in the testing set.  
----
+We then train our models on the training data, and predict the number of friends gained for the users in the testing set.
+
 ## Model using the social and traveler scores determined in the section above
 
 After having computed social and traveler scores for every user in our training set, we standardize the scales and we use them to train a **linear regression model**. 
