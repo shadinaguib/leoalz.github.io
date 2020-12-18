@@ -9,9 +9,7 @@ We then train our models on the training data, and predict the number of friends
 
 Let's talk about the first model. After having computed social and traveler scores for every user in our training set, we normalise the scores and we use them to train a **linear regression model**. We then use this model to predict the number of friends gained for each user in the testing set, and we compare that value to the real number of friends gained. The figure below is a plot of the residual, or the subtraction of the predicted friendship gain and the true friendship gain.
 
-
-
-<INSERT RESIDUAL GRAPH HERE>
+{% include regression_model.html %}
 
 We can see that with this simple regression model, the results already look pretty promising! In fact **in 60% of the cases, we were able to determine with an error of less than 2 friends, the number of friends that a user has gained or lost**. 
 
