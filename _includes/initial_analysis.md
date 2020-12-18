@@ -16,10 +16,18 @@ We can have a look at user home locations as well as check-in locations by count
 {% include homes_and_checkins_plot.html %}
 
 By selecting **Number of Homes** in the dropdown menu, we can see that the users living in the United States and in Brasil are the ones who use the Foursquare
-application the most. In Europe, Asia, and Australia, there is also a large amount of users checking in on the application, whereas in Africa some countries don't have any users checking in at all.  
+application the most. In Europe, Asia, and Australia, there is also a large amount of users checking in on the application, whereas in Africa some countries don't have any user homes in at all. Selecting **Number of check-ins** shows us a similar trend, however more countries are filled out this time.
 
 Let's dig a little deeper by looking at the 20 countries with the most users and figure out how the check-ins in these countries compare. 
 
 {% include top_20_plot.html %}
 
 We observe a general correlation between the amount of homes per country and check-ins per country. The big exception here, that has a larger check-in number compared to other top countries as apposed to homes. Indeed japan is a very attractive country for tourists with over 30 million visitors a year, which would explain the large number of check-ins.
+
+Foursquare defines a category hierarchy of multiple levels. Indeed each venue has a category, with perhaps a superior caterior, or even another 
+uperior category! We define 5 category levels (0 to 5) with 0 being the most general. Let us look at the distribution of check-ins within each of 
+the level 0 categories to get an idea on what our Foursquare users are up to.
+
+{% include category_plot.html %}
+
+Cleary the users love to eat!
