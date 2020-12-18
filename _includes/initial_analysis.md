@@ -15,12 +15,11 @@ We can have a look at user home locations as well as check-in locations by count
 
 {% include homes_and_checkins_plot.html %}
 
-By selecting "Number of Homes" in the dropdown menu, we can see that the users living in the United States and in Brasil are the ones who use the Foursquare
-application the most. In Europe and Asia, and Australia, there is also a big amount of users using the application, whereas in Africa, some countries don't have any
-users checking in anywhere.  
+By selecting **Number of Homes** in the dropdown menu, we can see that the users living in the United States and in Brasil are the ones who use the Foursquare
+application the most. In Europe, Asia, and Australia, there is also a large amount of users checking in on the application, whereas in Africa some countries don't have any users checking in at all.  
 
 Let's dig a little deeper by looking at the 20 countries with the most users and figure out how the check-ins in these countries compare. 
 
 {% include top_20_plot.html %}
 
-This is a test
+We observe a general correlation between the amount of homes per country and check-ins per country. The big exception here, that has a larger check-in number compared to other top countries as apposed to homes. Indeed japan is a very attractive country for tourists with over 30 million visitors a year, which would explain the large number of check-ins.
