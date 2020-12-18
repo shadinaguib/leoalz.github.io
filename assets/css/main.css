@@ -5094,29 +5094,6 @@ body {
   margin-right : 5px;
 }
 */
-#demoimage {
-  float: left ;
-}
-
-#data {
-  display         : flex;
-  text-align      : justify;
-  width           : 90%;
-  max-width       : 960px;
-  font-size       : 20px;
-  margin          : 50px auto; /* margin for markd*/
-  flex-direction  : column;
-  justify-content : space-between;
-}
-
-@media
-  only screen
-  and (min-width : 550px) {
-  #data {
-    width : 80%;
-
-  }
-}
 
 #users {
   display         : flex;
