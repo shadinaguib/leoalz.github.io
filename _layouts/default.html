@@ -13,8 +13,8 @@
         {{ my_include | markdownify }}
       </section>
 
-      <section id="users">
-        {% capture my_include %}{% include users.md %}{% endcapture %}
+      <section id="scoring_users">
+        {% capture my_include %}{% include scoring_users.md %}{% endcapture %}
         {{ my_include | markdownify }}
       </section>
 
@@ -28,9 +28,8 @@
         {{ my_include | markdownify }}
       </section>
 
-      <section id="team">
-        {% capture my_include %}{% include team.md %}{% endcapture %}
-        {{ my_include | markdownify }}
+      <section id="footer">
+        {% include footer.html}
       </section>
 
 
