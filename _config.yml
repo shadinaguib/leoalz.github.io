@@ -5,9 +5,9 @@ description: Website on our analysis of Foursquare datasets to predict the evolu
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Who will gain friendships?
+username: Does Mobility make or break friendships?
 user_description: Datomic Dataster
-user_title: An deep analysis of Foursquare friendships dynamics
+#user_title: An deep analysis of Foursquare friendships dynamics
 
 # Markdown
 kramdown:

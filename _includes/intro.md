@@ -6,7 +6,8 @@ It is almost impossible to precisely forecast the creation and deletion of parti
 
 Throughout this study, we used data from the social network Foursquare to build and train prediction models in order to predict wheither friendships will be created or deleted in the future.
 
-![fq](/Users/leos/Documents/School/EPFL/MA1/Applied Data Analysis/Project/P4/leoalz.github.io/_includes/Foursquare_logo.png "Foursquare logo")
+{% include Foursquare_logo.html %}
+
 
 Foursquare is a location-based social network which database gathers 13+ billion check-ins, used by developers around the globe for localisation purposes. A **check-in** occurs when a user communicates its position, associated with a location category like bakery shops, boats, clubs,... In this case the check-in is considered as a **venue**.
 
