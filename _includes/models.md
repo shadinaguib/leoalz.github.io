@@ -1,18 +1,15 @@
-# Similarity model 
+# Prediction Models
 
-We have tried two methods in order to predict the number of friends that a specific user will gain or lose during the data collection period : 
-1. A model using the social scores and the traveler scores that we have computed above  
+We will try two methods in order to predict the number of friends that a specific user will gain or lose during the data collection period: 
+1. A model using the social scores and the travel scores that we have computed above  
 2. A model only using the check-ins of the users to determine the similarity between them
 
-First of all we divide our data into a training set containing 80% of the users (1000 users), and a testing set containing 20% of the users (250 users).  
+First of all we divide our data into a training set containing 80% of the users (45618 users), and a testing set containing 20% of the users (11405 users).  
 We then train our models on the training data, and predict the number of friends gained for the users in the testing set.
 
-## Model using the social and traveler scores determined in the section above
+Let's talk about the first model. After having computed social and traveler scores for every user in our training set, we normalise the scores and we use them to train a **linear regression model**. We then use this model to predict the number of friends gained for each user in the testing set, and we compare that value to the real number of friends gained. The figure below is a plot of the residual, or the subtraction of the predicted friendship gain and the true friendship gain.
 
-After having computed social and traveler scores for every user in our training set, we standardize the scales and we use them to train a **linear regression model**. 
 
-We then use this model to predict the number of friends gained for each user in the testing set, and we compare that value to the real number of friends gained.
-These are the obtained results: 
 
 <INSERT RESIDUAL GRAPH HERE>
 
