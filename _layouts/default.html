@@ -13,11 +13,6 @@
         {{ my_include | markdownify }}
       </section>
 
-      <section id="data">
-        {% capture my_include %}{% include data.md %}{% endcapture %}
-        {{ my_include | markdownify }}
-      </section>
-
       <section id="users">
         {% capture my_include %}{% include users.md %}{% endcapture %}
         {{ my_include | markdownify }}
