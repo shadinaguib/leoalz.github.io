@@ -22,3 +22,5 @@ users checking in anywhere.
 Let's dig a little deeper by looking at the 20 countries with the most users and figure out how the check-ins in these countries compare. 
 
 {% include top_20_plot.html %}
+
+This is a test
