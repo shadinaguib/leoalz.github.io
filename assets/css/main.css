@@ -5073,6 +5073,9 @@ body {
   margin-right : 5px;
 }
 */
+#demoimage {
+  float: left ;
+}
 
 #data {
   display         : flex;
