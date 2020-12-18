@@ -5095,7 +5095,7 @@ body {
 }
 */
 
-#users {
+#scoring_users {
   display         : flex;
   text-align      : justify;
   width           : 90%;
@@ -5109,7 +5109,7 @@ body {
 @media
   only screen
   and (min-width : 550px) {
-  #users {
+  #scoring_users {
     width : 80%;
 
   }
