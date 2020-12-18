@@ -15,8 +15,7 @@ We can see that with this simple regression model, the results already look pret
 
 Now what if we only use the the check-ins of the users in the testing set to determine to which user in the training set they are the most similar to? 
 
-For the second model, we use a similarity measurement technique between the users and then use this to predict how a user's friendships have evolved.  
-In this case, for each user in the testing set, we determine the 5 most similar users in the training set by using **cosine similarity**, taking only into account the frequency at which the users go to a specific location. With this information, we then determine which users are the most similar. The difference between the predicted number of friends and the real number of friends (aka the residual) can be seen in the density plot below. 
+For the second model, we use a similarity measurement technique between the users and then use this to predict how a user's friendships have evolved.  In this case, for each user in the testing set, we determine the 5 most similar users in the training set by using **cosine similarity**, taking only into account the frequency at which the users go to a specific location. With this information, we then determine which users are the most similar. The difference between the predicted number of friends and the real number of friends (aka the residual) can be seen in the density plot below. 
 
 {% include cosine_model.html %}
 
