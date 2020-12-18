@@ -29,7 +29,8 @@
       </section>
 
       <section id="team">
-        {% include footer.html %}
+        {% capture my_include %}{% include team.md %}{% endcapture %}
+        {{ my_include | markdownify }}
       </section>
 
 
