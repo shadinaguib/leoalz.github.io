@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+      {% include header.html %}
+      <section id="intro">
+        {% capture my_include %}{% include intro.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+      </section>
+
+      <section id="data">
+        {% capture my_include %}{% include data.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+      </section>
+
+      <section id="users">
+        {% capture my_include %}{% include users.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+      </section>
+
+      <section id="models">
+        {% capture my_include %}{% include models.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+      </section>
+
+      <section id="conclusion">
+        {% capture my_include %}{% include conclusion.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+      </section>
+
+      <section id="team">
+        {% include footer.html %}
+      </section>
+
+
+  </body>
