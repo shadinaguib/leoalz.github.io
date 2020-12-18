@@ -5000,6 +5000,27 @@ sup {
   }
 }
 
+#initial_analysis {
+  display         : flex;
+  text-align      : justify;
+  width           : 90%;
+  max-width       : 960px;
+  font-size       : 20px;
+  margin          : 50px auto; /* margin for markd*/
+  flex-direction  : column;
+  justify-content : space-between;
+}
+
+@media
+  only screen
+  and (min-width : 550px) {
+  #initial_analysis {
+    width : 80%;
+
+  }
+}
+
+
 /*
 .tech {
   margin : 10px;
