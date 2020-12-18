@@ -9,5 +9,3 @@ Throughout this study, we used data from the social network *Foursquare* to buil
 
 
 Foursquare is a location-based social network which database gathers 13+ billion check-ins, used by developers around the globe for localisation purposes. A **check-in** occurs when a user communicates their position, associated with a location category like a bakery, shops, boats, clubs, etc. We extracted a fraction of this database used in several papers exploring multiple aspects of friendship and mobility, and we will base our analysis on this dataset.
-
----
