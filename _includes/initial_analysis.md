@@ -30,4 +30,4 @@ the level 0 categories to get an idea on what our Foursquare users are up to.
 
 {% include category_plot.html %}
 
-Cleary the users love to eat!
+Clearly the users love to eat!
