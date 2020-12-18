@@ -7,6 +7,11 @@
         {% capture my_include %}{% include intro.md %}{% endcapture %}
         {{ my_include | markdownify }}
       </section>
+    
+      <section id="initial_analysis">
+        {% capture my_include %}{% include initial_analysis.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+      </section>
 
       <section id="data">
         {% capture my_include %}{% include data.md %}{% endcapture %}
